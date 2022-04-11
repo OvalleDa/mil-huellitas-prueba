@@ -59,7 +59,7 @@ main{
   grid-template-columns: repeat(5,1fr);
   margin-top: 10px;
   grid-column: 1/5;
-  background-color: #a88280;
+  background-color: #124b80a8;
   border: 2px solid black;
 }
 
