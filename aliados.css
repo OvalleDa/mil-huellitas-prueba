@@ -52,6 +52,7 @@ main{
   margin-top: 10px;
   grid-column: 1/5;
   font-size: 0.5em;
+  margin: 10px ;
 }
 
 .cardsProducts{  
