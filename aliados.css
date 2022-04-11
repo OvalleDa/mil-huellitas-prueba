@@ -46,7 +46,7 @@ main{
   max-width: 100%;
 }
 
-.titleAliados{
+.titleAllies{
   background-color: #FAC0BD;
   border: 2px solid black;
   margin-top: 10px;
@@ -62,6 +62,7 @@ main{
   grid-column: 1/5;
   background-color: #124b80a8;
   border: 2px solid black;
+  margin: 10px;
 }
 
 .cardAccessories{
@@ -71,7 +72,7 @@ main{
 }
 
 .cardFood{
-  grid-column: 3/6;
+  grid-column: 3/5;
   margin-top: 10px;
 }
 
@@ -83,7 +84,7 @@ main{
 
 
 .cardCare{
-  grid-column: 3/6;
+  grid-column: 3/5;
   margin-top: 10px;
 }
 
@@ -230,4 +231,14 @@ main{
   transform: translateY(0px);
   transition-delay: 0.75s;
   
+}
+
+.coupon{
+  grid-column: 1/5;
+  margin: 10px;
+}
+
+.coupon img{
+  width: 100%;
+  max-width: 100%;
 }
