@@ -47,8 +47,7 @@ main{
 }
 
 .titleAllies{
-  background-color: #FAC0BD;
-  border: 2px solid black;
+
   margin-top: 10px;
   grid-column: 1/5;
   font-size: 0.5em;
@@ -60,8 +59,7 @@ main{
   grid-template-columns: repeat(5,1fr);
   margin-top: 10px;
   grid-column: 1/5;
-  background-color: #124b80a8;
-  border: 2px solid black;
+
   margin: 10px;
 }
 
