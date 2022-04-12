@@ -244,14 +244,14 @@ main{
 }
 
 
-.title2{
+.title-Allied-Brands{
   grid-column: 1/5;
   display:grid;
   grid-template-columns: repeat(4,1fr);
   text-align: center;
 }
 
-.title2 h1{
+.title-Allied-Brands h1{
   text-align: center;
 }
 
@@ -271,4 +271,129 @@ main{
   grid-column: 4/5;
   width: 30%;
   margin-top: 20px;
+}
+
+.alliedBrands{
+  grid-column: 1/5;
+  background-color: #FAC0BD;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+.ar{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar2{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+
+.ar3{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+
+.ar4{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+
+
+.aliados .icon {
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(#1E4364);
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.alliedBrands a{
+  text-decoration: none;
+  color: #da570b;
+}
+
+.content p {
+  text-align: center;
+  color: #000cb8;
+}
+
+.aliados:hover .face.face2{
+  transform: translateY(0);
+}
+
+.aliados .face.face2 {
+  position: relative;
+  background: rgb(250, 163, 163);
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.521);
+  transform: translateY(-100px);
+}
+
+.icono {
+  width: 0%;
+}
+
+ .aliados:nth-child(1) .icon {
+  background: #77727100;
+}
+
+ .aliados:nth-child(2) .icon {
+  background: #6eadd4;
+}
+
+ .aliados:nth-child(3) .icon {
+  background: #4aada9;
+}
+
+.aliados .icon .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+
+
+ .aliados .face {
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+}
+
+ .aliados .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+ .aliados:hover .face.face1{
+  background: var(--blue-dark-color);
+  transform: translateY(0px);
+}
+
+.aliados .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.aliados:hover .face.face1 .content {
+  opacity: 1;
+}
+.aliados .face.face1 .content img{
+  max-width: 100%;
 }
