@@ -74,6 +74,7 @@ main{
 .cardFood{
   grid-column: 3/5;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .cardToys{
@@ -86,6 +87,7 @@ main{
 .cardCare{
   grid-column: 3/5;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .card{
@@ -275,6 +277,9 @@ main{
 
 .alliedBrands{
   grid-column: 1/5;
+  background-image: url(aliados/fondo-prn.png);
+  background-size: 200%;
+  background-repeat: no-repeat;
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
