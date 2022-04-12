@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+:root{
+    --blue-dark-color:#1E4364;
+    --blue-medium-color:#2970CA;
+    --blue-light:#D5E3FF;
+    --green-light-color:#C4EDB2;
+    --coral-color:#FAC0BD;
+    --dark-color:#191919;
+    --white-color:#FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(../../assets/img/aliados/fondo.png);
+    background-position: left;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+header{
+    grid-column: 1/5;
+    background-color: var(--blue-dark-color);
+    color: var(--white-color);
+  }
+  
+  main{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+.banner{
+    grid-column: 1/5;
+  }
+  
+  .banner img{
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+.titleAllies{
+
+    margin-top: 10px;
+    grid-column: 1/5;
+    font-size: 0.6em;
+    margin: 10px ;
+  }
+  
