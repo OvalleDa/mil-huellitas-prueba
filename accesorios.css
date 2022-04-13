@@ -68,52 +68,75 @@ header{
 }
 
 .a1{
-  grid-column: 1/2;
   background-image: url(aliados/comedores.png);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.a2{
+.a1, .a3, .a5, .a7, .a9, .a11{
+    grid-column: 1/2;
+    background-size: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+.a2, .a4, .a6, .a8, .a10 , .a12{
   grid-column: 3/4;
-  background-image: url(aliados/peluches.jpg);
   background-size: 250px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
+.a2{
+  background-image: url(aliados/peluches.jpg);
+}
+
 .a3{
-  grid-column: 1/3;
   background-image: url(aliados/correa.jpg);
-  background-size: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 
 .a4{
-  grid-column: 3/4;
+
   background-image: url(aliados/gym.jpg);
-  background-size: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .a5{
-  grid-column: 1/3;
   background-image: url(aliados/camagato.jpg);
-  background-size: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .a6{
-  grid-column: 3/4;
   background-image: url(aliados/kits.jpg);
-  background-size: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.a7{
+  background-image: url(aliados/pañoleta.jpg);
+}
+
+.a8{
+  background-image: url(aliados/transportador.jpg);
+}
+
+.a9{
+  background-image: url(aliados/retractil.jpg);
+}
+
+.a10{
+  background-image: url(aliados/arenero.jpg);
+}
+
+.a11{
+  background-image: url(aliados/arnes.jpg);
+}
+
+.a12{
+  background-image: url(aliados/placas.jpg);
 }
 
 
