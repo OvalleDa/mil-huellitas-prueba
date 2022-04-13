@@ -25,3 +25,221 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
+
+header{
+    grid-column: 1/5;
+    background-color: var(--blue-dark-color);
+    color: var(--white-color);
+  }
+  
+  main{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+.banner{
+    grid-column: 1/5;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+.banner ul{
+    display: flex;
+    width: 400%;
+    padding: 0;
+    animation: slide 16s infinite alternate ease-in-out;
+  }  
+  
+.banner li{
+  list-style: none;   
+  width: 100%;
+
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+}
+
+
+.titleFood{
+    margin-top: 10px;
+    grid-column: 1/5;
+    font-size: 0.8em;
+    margin: 10px ;
+  }
+  
+
+
+
+.alliedFood{
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 10px;
+  background-image: url(aliados/fondo-prn.png);
+  background-size: 500px;
+
+  margin: 15px;
+}
+
+.a1{
+  background-image: url(aliados/comida1.jpg);
+  background-size: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a1, .a3, .a5, .a7, .a9, .a11{
+    grid-column: 1/2;
+    background-size: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+.a2, .a4, .a6, .a8, .a10 , .a12{
+  grid-column: 3/4;
+  background-size: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.a2{
+  background-image: url(aliados/comidacasera2.jpg);
+}
+
+.a3{
+  background-image: url(aliados/comidacasera.png);
+}
+
+
+.a4{
+
+  background-image: url(aliados/comidacasera4.png);
+
+}
+
+.a5{
+  background-image: url(aliados/comidacasera6.jpg);
+
+}
+
+.a6{
+  background-image: url(aliados/comidacasera8.png);
+}
+
+.a7{
+  background-image: url(aliados/comidacasera14.png);
+}
+
+.a8{
+  background-image: url(aliados/comidacasera15.png);
+}
+
+.a9{
+  background-image: url(aliados/comidacasera10.png);
+}
+
+.a10{
+  background-image: url(aliados/comidacasera3.png);
+}
+
+.a11{
+  background-image: url(aliados/comidacasera12.png);
+}
+
+.a12{
+  background-image: url(aliados/comidacasera11.png);
+}
+
+
+.card{
+
+  text-align: center;
+  border-radius: 8px;
+  width: 150px;
+  height: 200px;
+  box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.content{
+  width: 100%;
+
+  border-radius: 8px;
+  background: rgba(0, 0, 0, .2);
+  opacity: 0;
+  transition: .5s;
+}
+
+.content h2, a{
+  color: rgb(255, 255, 255);
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.content a{
+  background-color: rgb(0, 1, 80);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.card:hover .content {
+  opacity: 1;
+}
+
+.titleSection{
+  margin-top: 10px;
+  grid-column: 1/5;
+  font-size: 0.9em;
+  margin: 10px ;
+}
+
+.titleSection p{
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.buttonsBack{
+  grid-column: 1/5;
+  margin-top: 20px;
+}
+
+.buttonsBack a{
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  background-color: #86aee2;
+  border-radius: 10px;
+}
+
+.buttonsBack a:hover{
+  background-color: #1E4364;
+  color: white;
+}
+
+.footer{
+  margin-top: 30px;
+  grid-column: 1/5;
+  background-color: #1E4364;
+  color:var(--white-color);
+}
