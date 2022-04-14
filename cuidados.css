@@ -173,7 +173,6 @@ header{
 
 
 .card{
-
   text-align: center;
   border-radius: 8px;
   width: 150px;
@@ -183,23 +182,35 @@ header{
 
 .content{
   width: 100%;
-
+  height: 100%;
   border-radius: 8px;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, 0.534);
   opacity: 0;
   transition: .5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.content h2, a{
+.content h2{
   color: rgb(255, 255, 255);
-  margin: 30px 0;
-  text-decoration: none;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .content a{
   background-color: rgb(0, 1, 80);
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  text-decoration: none;
   border-radius: 10px;
-  padding: 4px;
+  padding: 6px;
+  margin-bottom: 50px;
+}
+
+.content a:hover{
+  background-color: var(--blue-medium-color)
 }
 
 .card:hover .content {
@@ -224,17 +235,18 @@ header{
 }
 
 .buttonsBack a{
-  color: black;
+  color: rgb(255, 255, 255);
   padding: 10px;
   margin-top: 10px;
   font-size: 0.8em;
-  background-color: #86aee2;
+  background-color: #1E4364;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .buttonsBack a:hover{
-  background-color: #1E4364;
-  color: white;
+  background-color: #86aee2;
+  color: rgb(3, 3, 3);
 }
 
 .footer{
