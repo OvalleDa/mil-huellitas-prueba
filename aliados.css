@@ -105,19 +105,19 @@ main{
   width: 100%;
   height: 100%;
   background: var();
-  clip-path: circle(150px at 80% 20%);
-  transition: 0.5s ease-in-out;
+  clip-path: circle(15px at 80% 20%);
+  transition: 0.2s ease-in-out;
 }
 
 .card:hover:before{
-  clip-path: circle(300px at 80% -20%);
+  clip-path: circle(100px at 80% -20%);
 }
 
 .card .imgBx{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10000;
+  z-index: 1000;
   width: 100%;
   height: 220px;
   transition: 0.5s;
@@ -134,7 +134,7 @@ main{
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(-25deg);
+  transform: translate(-50%, -50%) rotate(-30deg);
   width: 170px;
 }
 
@@ -149,7 +149,7 @@ main{
 }
 
 .card:hover .contentBx{
-  height: 110px;
+  height: 100px;
 }
 
 
@@ -190,47 +190,31 @@ main{
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-right: 10px;
+  padding: 10px;
 }
 
 
-.card .contentBx .size span{
-  width: 26px;
-  height: 26px;
-  text-align: center;
-  line-height: 26px;
-  font-size: 14px;
-  display: inline-block;
-  color: #111;
-  background: #fff;
-  margin: 0 5px;
-  transition: 0.5s;
-  color: #111;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-.card .contentBx a{
+.contentBx a{
   display: inline-block;
-  padding: 5px 5px;
-  background: #ffffff;
-  border-radius: 100px;
+  padding: 1px;
+  background: var(--blue-medium-color);
+  border-radius: 10px;
   margin: 10px;
   text-decoration: none;
-  font-weight: 200;
+
   font-size: 15px;
-  color: #111;
+  color: rgb(255, 255, 255);
   opacity: 0;
   transform: translateY(50px);
-  transition: 0.5s;
-
+  transition: 0.3s;
 }
+
 
 .card:hover .contentBx a{
   opacity: 1;
   transform: translateY(0px);
-  transition-delay: 0.75s;
-  
+  transition-delay: 0.20s; 
 }
 
 .coupon{
@@ -275,12 +259,14 @@ main{
 
 .alliedBrands{
   grid-column: 1/5;
-  background-image: url(aliados/fondo-prn.png);
-  background-size: 200%;
-  background-repeat: no-repeat;
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  background-image: url(aliados/huellita3.svg);
+  background-position: center;
+  background-size:800px;
+  background-repeat: no-repeat;
+  
 }
 
 
@@ -306,6 +292,25 @@ main{
   margin: 10px;
 }
 
+.ar5{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar6{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+.ar7{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar8{
+  grid-column: 3/4;
+  margin: 10px;
+}
 
 
 .aliados .icon {
