@@ -285,6 +285,7 @@ main{
 .button{
   text-align: center;
   grid-column: 1/5;
+  margin-top: 10px;
 }
 
  .button a{
@@ -644,9 +645,105 @@ main{
 
 .button{
   text-align: center;
-  grid-column: 1/3;
+  grid-column: 1/4;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.aliados .face {
+  width: 250px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.content a{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.content p {
+  text-align: center;
+  color: #000000;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card{
+  width: 240px;
+  height: 350px;
+  background: var(--blue-dark-color);
+  border-radius: 50px;
+}
+
+
+.card:hover{
+  background: #6eadd4;
+}
+
+
+.card .contentBx h2{
+  letter-spacing: 4px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contentBx a{
+  background-color: var(--blue-dark-color);
+  font-size: 20px;
   padding: 10px;
-  background-color: #2970CA;
+}
+
+
+.card .contentBx{
+  bottom: 50px;
+  width: 90%;
+  height: 50px;
+}
+
+.card .imgBx img{
+  top:20%;
+  left: 50%;
+  width: 230px;
+}
+
+.coupon{
+  grid-column: 1/5;
+  cursor: pointer;
+  margin-top: 50px;
+
+}
+
+.cardsProducts{  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 100px;
+  grid-column: 1/5;
+  background-image: url(aliados/huellita5.svg);
+  background-position: center;
+  background-size:1200px;
+  background-repeat: no-repeat;
+
+}
+
+.titleAllies{
+
+  margin-top: 80px;
+  grid-column: 1/5;
+  font-size: 1.1em;
+}
+
+.coupon img{
+  width: 70%;
+  max-width: 80%;
+}
+
+.title-Allied-Brands h1{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  margin-top: 70px;
 }
 
 }
