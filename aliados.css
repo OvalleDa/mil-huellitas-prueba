@@ -38,6 +38,12 @@ main{
   grid-template-columns: repeat(4,1fr);
 }
 
+.fondo{
+  grid-column: 1/5;
+  background-image: url(aliados/huellita3.svg);
+  background-size: cover;
+}
+
 .banner{
   grid-column: 1/5;
   cursor: pointer;
@@ -265,10 +271,10 @@ main{
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  background-image: url(aliados/huellita3.svg);
-  background-position: center;
-  background-size:800px;
-  background-repeat: no-repeat;
+  background-image: url(aliados/huellita5.svg);
+
+  background-size:1200px;
+
 }
 
 
@@ -288,6 +294,7 @@ main{
   margin-top: 10px;
 }
 
+
  .button a{
   text-align: center;
   text-decoration: none;
@@ -301,6 +308,13 @@ main{
   padding: 5px;
   border-radius: 10px;
 }
+
+
+.button h4:hover{
+  background: rgb(207, 214, 255);
+  color: black;
+}
+
 
 
 
@@ -377,17 +391,7 @@ main{
   width: 0%;
 }
 
- .aliados:nth-child(1) .icon {
-  background: #f3f3f300;
-}
 
- .aliados:nth-child(2) .icon {
-  background: #6eadd4;
-}
-
- .aliados:nth-child(3) .icon {
-  background: #4aada9;
-}
 
 
 
@@ -632,6 +636,14 @@ main{
 
 @media (min-width: 1024px){
 
+  body{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
   .alliedBrands{
   grid-column: 1/5;
   margin: 10px;
@@ -663,7 +675,7 @@ main{
 
 .content p {
   text-align: center;
-  color: #000000;
+  color: #dbdbdb;
   font-weight: 100;
   font-size: 20px;
   margin-top: 10px;
@@ -720,7 +732,6 @@ main{
   grid-template-columns: repeat(3,1fr);
   margin-top: 100px;
   grid-column: 1/5;
-  background-image: url(aliados/huellita5.svg);
   background-position: center;
   background-size:1200px;
   background-repeat: no-repeat;
@@ -734,10 +745,6 @@ main{
   font-size: 1.1em;
 }
 
-.coupon img{
-  width: 70%;
-  max-width: 80%;
-}
 
 .title-Allied-Brands h1{
   text-align: center;
